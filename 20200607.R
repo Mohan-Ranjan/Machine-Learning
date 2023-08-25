@@ -5,7 +5,7 @@ remove(list=ls())
 library(readxl)
 
 #Input the data set
-df<- read_excel("/Users/shanmugaratnammohanaranjan/Desktop/Machine Learning/vehicles.xlsx") 
+df<- read_excel("/Users/shanmugaratnammohanaranjan/Desktop/Machine Learning/Machine-Learning/vehicles.xlsx") 
 
 # View the data
 View(df)
