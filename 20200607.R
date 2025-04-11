@@ -5,7 +5,7 @@ remove(list=ls())
 library(readxl)
 
 #Input the data set
-df<- read_excel("/Users/shanmugaratnammohanaranjan/Desktop/Machine Learning/Machine-Learning/vehicles.xlsx") 
+df<- read_excel("/Users/shanmugaratnammohanaranjan/Desktop/20200607/vehicles.xlsx") 
 
 # View the data
 View(df)
@@ -285,7 +285,7 @@ library(neuralnet)
 library(ggplot2) 
 library(readxl)
 #Load dataset
-uow_consumption <- read_excel("/Users/shanmugaratnammohanaranjan/Desktop/Machine Learning/uow_consumption.xlsx") 
+uow_consumption <- read_excel("/Users/shanmugaratnammohanaranjan/Desktop/20200607/uow_consumption.xlsx") 
 View(uow_consumption)
 
 # Rename columns
